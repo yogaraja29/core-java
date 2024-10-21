@@ -82,6 +82,17 @@ public class ConditionalStatements {
 			System.out.println(alphabet + " is consonent");
 		}
 		System.out.println("============");
+		
+
+		System.out.println("What is your age: ");
+		int age = scan.nextInt();
+
+		if (age >= 18) {
+			System.out.println("you are eligible to vote");
+
+		} else {
+			System.out.println("you are not eligible to vote");
+		}
 
 		scan.close();
 	}
